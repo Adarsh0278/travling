@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+#grupe-1{
+    background-color: #b75973;
+    background-image: url(assets/bg.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.nav-log img{
+    width: 100px;
+}
+
+.homeProduct{
+    padding: 25px 70px;
+}
+
+.homeProduct ul{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #ffefd5;
+    font-family: mo;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.content-txt{
+    /* background-color: aqua; */
+    color: #ffefd5;
+    width: 670px;
+    height: 60vh;
+    padding-top: 9vh ;
+    padding-left: 70px;
+}
+
+ .content-txt h1{
+    font-size: 4.5em;
+    text-transform: capitalize;
+}
+
+.content-txt p{
+    color: #ffefd5;
+    font-size: 20px;
+    text-align: justify;
+    width: 540px;
+
+}
+
+.buttonA{
+    width: 160px;
+    height: 38px;
+    border: none;
+    background-color: #ffefd5;
+    color: #b75973;
+    font-size: 0.8em;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+#grupe-2{
+    background-image: url(assets/bg2.png);
+    width: 100%;
+    height: 100vh;
+    /* background-color: #b75973; */
+}
+
+.grpCont{
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.grp2Heading{
+    /* text-align: center; */
+    color: #b75973;
+    font-size: 70px;
+}
+
+.grp2pera{
+    text-align: center;
+    color: #b75973;
+    font-size: 20px;
+    width: 46%;
+}
+.grp2CardP{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 9vh;
+    justify-content: space-evenly;
+}
+.cardIMG{
+    border-radius: 50%;
+    height: 240px;
+
+}
+.cardtaxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    color: #b75973;
+
+}
+.cardTitle{
+    font-size: 26px;
+}
+
+#grupe-3{
+    width: 100%;
+    height: 100vh;
+    background-color: #b75973;
+    color: #ffefd5;
+}
+
+.u9ih{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+#grupe-3 div div img{
+    height: 450px;
+    border-radius: 50%;
+}
+
+.grp3Txt h2{
+    font-size: 75px;
+}
+
+.grp3Txt p{
+    width: 500px;
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: start;
+}
+
+.grp3Txt button{
+    margin-top: 40px;
+
+}
+
+#grp-4{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #ffefd5; */
+    background-image: url(assets/bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#grp-4 div{
+    padding-top: 6vh;
+
+}
+.grp4heading{
+    font-size: 62px;
+    color: #b75973;
+    font-weight: 900;
+}
+.grp4Text{
+    text-align: center;
+}
+
+.grp4Pera{
+    width: 60%;
+    font-size: 20px;
+    color: #b75973;
+    text-align: center;
+}
+.grp4PeraP{
+    padding-left: 28%;
+}
+.grp4Card1{
+    width: 270px;
+    height: 270px;
+    /* background-color: #b75973; */
+    border: 4px solid #b75973;
+    border-radius: 50%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    color: #b75973;
+}
+.number{
+    font-weight: 800;
+    font-size: 75px;
+}
+
+.cardT{
+    font-size: 35px;
+    font-weight: 800;
+
+}
+.grp4CardP{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cltext{
+    padding-top: 20px;
+}
